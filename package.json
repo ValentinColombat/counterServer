@@ -1,0 +1,24 @@
+{
+  "name": "counterserver",
+  "version": "1.0.0",
+  "main": "counterServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinColombat/counterServer.git"
+  },
+  "type" : "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentinColombat/counterServer/issues"
+  },
+  "homepage": "https://github.com/ValentinColombat/counterServer#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
