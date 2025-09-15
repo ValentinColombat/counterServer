@@ -1,4 +1,4 @@
-# 1/Créer un serveur qui compte les visites
+# 1 / Créer un serveur qui compte les visites
 
 Lors d'un appel au serveur, celui-ci doit répondre :
 "Bravo, vous êtes le Xème visiteur !"
@@ -9,7 +9,7 @@ Notes :
 - En quittant/stoppant le serveur, le compte se réinitialise. 
 - Si le compteur s'incrémente de 2 par 2, c'est parce qu' il y a un appel automatique du client vers la route /favicon pour obtenir l'image miniature du site, il faudra trouver comment l'empêcher.
 
-# 2/Créer un serveur qui renseigne si le nombre est pair ou impair 
+# 2 / Créer un serveur qui renseigne si le nombre est pair ou impair 
 - qui répond aux appels à la route `/N` (où N est un nombre supérieur ou égal à 0) avec la réponse suivante : à la spécification suivante : 
  `Le nombre N est (im)pair.`
 
@@ -19,6 +19,7 @@ Exemple :
 
 ## BONUS 
 - Implémenter la méthode `isOdd` dans le fichier `isOdd.js`, l'exporter, puis l'importer depuis ce fichier.
+
 
 
 
