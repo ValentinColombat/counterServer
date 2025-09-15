@@ -10,7 +10,6 @@ où X est le nombre de visites qui ont eu lieu sur le serveur.
 - Si le compteur s'incrémente de 2 par 2, c'est parce qu' il y a un appel automatique du client vers la route /favicon pour obtenir l'image miniature du site, il faudra trouver comment l'empêcher.
 
 # Créer un serveur qui renseigne si le nombre est pair ou impair 
-- qui écoute sur le port 3000
 - qui répond aux appels à la route `/N` (où N est un nombre supérieur ou égal à 0) avec la réponse suivante : à la spécification suivante : 
  `Le nombre N est (im)pair.`
 
@@ -20,6 +19,7 @@ Exemple :
 
 ## BONUS 
 - Implémenter la méthode `isOdd` dans le fichier `isOdd.js`, l'exporter, puis l'importer depuis ce fichier.
+
 
 
 
